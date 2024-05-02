@@ -1,0 +1,21 @@
+{
+  "name": "githublint",
+  "version": "1.0.0",
+  "description": "teste do gitlint para padronizar commits",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel Teles",
+  "license": "ISC",
+  "husky": {
+    "hooks":{
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "husky": "^9.0.11"
+  }
+}
