@@ -9,7 +9,7 @@
   "author": "Gabriel Teles",
   "license": "ISC",
   "husky": {
-    "hooks":{
+    "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
