@@ -12,7 +12,7 @@ Essas ferramentas servem para padronizar as mensagens de commits visando melhora
 
   <a href="https://typicode.github.io/husky/">O Husky está disponivel aqui.</a>
 
-## Algumas alterações para ficar atento: 
+## Algumas alterações para ficar atento no `package.json`: 
 
 ```
 "scripts": {
